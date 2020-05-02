@@ -59,4 +59,9 @@ export class ProductsComponent implements OnInit {
   ngOnInit() {
   }
 
+  clickProduct(id: number) {
+    console.log('product');
+    console.log(id);
+  }
+
 }
